@@ -118,10 +118,10 @@ while True:
   elif difficulty == 2:
     dh=1
     ddmg=1.1
-    dc=1.3
-    dcr=rint(1,8)
+    c=1.3
+    cr=rint(1,8)
     db=0.85
-    dbr=rint(1,8)
+    br=rint(1,8)
     deh=1.2
     dedmg=1.1
     dec=1.4
