@@ -96,8 +96,8 @@ game_name='''
 
 
 
-print(col.GREEN + game_name + '\n')
-print(col.BLUE + "Welcome, to begin enter the Difficulty that you want. (easy) 1-3 (hard)")
+print1(col.GREEN + game_name + '\n')
+print2(col.BLUE + "Welcome, to begin enter the Difficulty that you want. (easy) 1-3 (hard)")
 difficulty=int(input(col.WHITE+" >>"))
 
 while True:
@@ -156,12 +156,12 @@ wait(1)
 
 lvl=0
 
-print(col.BLUE+"You see a cave entrance in the distance.\n'I should go in there,' you think to yourslef.\n\nYou go to the entrance of the cave and you see a monster waiting inside\n\nDo you want to 'leave' everything behind and finish your adventure or 'fight' the monster?")
+print2(col.BLUE+"You see a cave entrance in the distance.\n'I should go in there,' you think to yourslef.\n\nYou go to the entrance of the cave and you see a monster waiting inside\n\nDo you want to 'leave' everything behind and finish your adventure or 'fight' the monster?")
 
 choice1=input(col.WHITE+" >>")
 
 if choice1.lower()=='fight':
-  print(col.BLUE+"\nYou decide to stay and fight this monster.\nOnce you enter the cave you realize you do not have a weapon to fight with.\nYou look around and find a rusty sword on the ground and pick it up, alerting the monster\n\n'I guess there's no backing out now'\n\n")
+  print2(col.BLUE+"\nYou decide to stay and fight this monster.\nOnce you enter the cave you realize you do not have a weapon to fight with.\nYou look around and find a rusty sword on the ground and pick it up, alerting the monster\n\n'I guess there's no backing out now'\n\n")
 
   print1(col.RED + level[lvl])
   lvl+=1

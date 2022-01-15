@@ -1,5 +1,7 @@
 
-
+class Boss:
+  def __init__(self):
+|
 class Enemy:
   def __init__(self):
     self.basedmg=15
@@ -11,41 +13,46 @@ class Enemy:
       self.crit="true"
     if self.crit=="true":
       self.dmg=self.basedmg*self.critdmg
-
-
-class Slime(Enemy):
+|
+1class Slime(Enemy):
   def __init__(self):
     self.moves=["Slime Blast","Obsorbtion","Resagoo"]
     self.move=rint(0,len(self.moves)-1)
     self.move=("Slime uses", self.move1)
-
-class Skeleton(Enemy):
+|
+2class Skeleton(Enemy):
   def __init__(self):
     self.moves=["Bone Bash","Rib Cage","..."]
     self.move=rint(0,len(self.moves)-1)
     self.move=("Skeleton uses", self.move1)
-
-class Cat(Enemy):
+|
+3class Cat(Enemy):
   def__init__(self):
     self.moves=["Scratch","Reflexes","Catwalk"]
     self.move1=rint(0,len(self.moves)-1)
     self.move=("Cat uses", self.move1)
-
-class Chest(Enemy):
+|
+4class Chest(Enemy):
   def __init__(self):
     self.moves=["Coin Munch","Coin Swarm","Coin Flare"]
     self.move1=rint(0,len(self.moves)-1)
     self.move=("Chest uses", self.move1)
-
-class Spider(Enemy):
+|
+5class Spider(Enemy):
   def __init__(self):
     self.moves("Venom Bite","Webshot","Egg Barage")
-
-class Traveler(Enemy):
+|
+6class Traveler(Enemy):
   def __init__(self):
     self.moves=[Player's abilities]
-
-class Rats(Enemy):
+|
+7class Rats(Enemy):
   def __init__(self):
-    self.moves=["Rat Attack","Mischief Wall]
+    self.moves=["Rat Attack","Mischief Barricade","Rat Roll"]
+
+|
+8class ShopKeeper(Boss):
+  def __init__(self):
+    self.moves=["Sword Merge","",""]
+    self.specmoves=["","Electric Slide",""]
 

@@ -3,8 +3,6 @@ class Player:
   def __init__(self):
     self.moves=["Attack","Dodge","Block"]
 
-The player can decide whether the Traveler that they meet up with in the cave to be friend or foe. If friend then the Traveler will become an ally and fight along side the player in battle. If foe then the Traveler will be a Enemy.
-
 class Ally(Player):
   
   
